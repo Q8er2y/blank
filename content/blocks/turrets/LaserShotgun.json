@@ -11,8 +11,8 @@
     "shootCone": 30,
     "shoot":{
         "type": "ShootSpread",
-        "shots": 5,
-        "spread": 40
+        "shots": 4,
+        "spread": 20
         },
     "ammoTypes": {
         "titanium": {
@@ -32,6 +32,13 @@
             "toColor": "ec6fff",
             "shootEffect": "thoriumShoot",
             "smokeEffect": "thoriumShoot"
+        }
+         "surge-alloy": {
+            "type": "ShrapnelBulletType",
+            "length": 145,
+            "damage": 400,
+            "ammoMultiplier": 7,
+            "width": 12,
         }
     },
     "category": "turret",
