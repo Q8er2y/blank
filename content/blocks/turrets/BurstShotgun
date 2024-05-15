@@ -1,0 +1,52 @@
+{
+    "type": "BurstTurret",
+    "health": 550,
+    "size": 3,
+    "reload": 20,
+    "shake": 4,
+    "range": 128,
+    "rotateSpeed": 5,
+    "recoil": 5,
+    "shootSound": "Turrets/LaserShotgun",
+    "shootCone": 30,
+    "shoot":{
+        "type": "ShootSpread",
+        "shots": 4,
+        "spread": 20
+        },
+    "ammoTypes": {
+        "titanium": {
+            "type": "ShrapnelBulletType",
+            "length": 138,
+            "damage": 150,
+            "ammoMultiplier": 4,
+            "width": 12,
+            "reloadMultiplier": 1.5
+        },
+        "thorium": {
+            "type": "ShrapnelBulletType",
+            "length": 138,
+            "damage": 325,
+            "ammoMultiplier": 5,
+            "width": 12,
+            "toColor": "ec6fff",
+            "shootEffect": "thoriumShoot",
+            "smokeEffect": "thoriumShoot"
+        }
+         "surge-alloy": {
+            "type": "ShrapnelBulletType",
+            "length": 145,
+            "damage": 400,
+            "ammoMultiplier": 7,
+            "width": 12,
+            "toColor": "#ffe26f",
+        }
+    },
+    "category": "turret",
+    "requirements": [    
+        "copper/255",
+        "lead/55",
+        "graphite/100",
+        "titanium/35"
+    ]
+}
